@@ -63,7 +63,7 @@ const translations = {
         'intro-p2': '对AI技术有浓厚兴趣，积极运用ChatGPT和GitHub Copilot等最新AI工具，提高开发效率和代码质量。',
 
         // GitHub页面
-        'githubName': 'Yan Sanuei',
+        'githubName': 'Wenbin BAI',
         'githubBio': '全栈开发工程师 | 开源爱好者',
         'followers': '关注者',
         'following': '关注中',
