@@ -4,7 +4,7 @@
 
 ## 网站预览
 
-[Sanuei个人网站](https://sanuei.github.io/sanuei-resume/)
+[Sanuei个人网站](https://wenbinbai.github.io/bwb-resume/index.html)
 
 ## 功能特点
 
