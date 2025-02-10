@@ -8,18 +8,18 @@ const translations = {
         'github': 'GitHub',
 
         // 首页
-        'hello': '你好，我是 Yann',
+        'hello': '你好，我是白文斌',
         'role': '全栈开发工程师 | 摄影爱好者',
         'view-github': 'GitHub',
         'view-resume': '我的简历',
 
         // 简历页面
         'resume-title': '履历書',
-        'surname': '楊',
-        'firstname': '尚衛',
-        'surname-phonetic': 'ヤン',
-        'firstname-phonetic': 'サンウエイ',
-        'address': '東京都江戸川区一之江',
+        'surname': '白',
+        'firstname': '文斌',
+        'surname-phonetic': 'ハク',
+        'firstname-phonetic': 'ブンヒン',
+        'address': '東京都大田区蒲田',
         'education': '学历背景',
         'workExperience': '工作经历',
         'skills': '技术技能',
@@ -29,10 +29,12 @@ const translations = {
         
         // 学历信息
         'study-period': '2022.10 - 2023.10',
-        'school-1': '大原日本语学院',
-        'major-1': '日语学习',
-        'school-2': '南京艺术学院',
-        'major-2': '数字媒体艺术',
+        'school-1': '东京海洋大学大学院',
+        'major-1': '应用环境系统（博士）',
+        'school-2': '东京海洋大学大学院',
+        'major-2': '海运物流（硕士）',
+        'school-3': '大连海事大学',
+        'major-3': '船舶电子电气工程（学士）',
         
         // 工作经历
         'company-1': '(株)名川ネットワーク',
@@ -53,6 +55,8 @@ const translations = {
         
         // 证书
         'jlpt-n2': '日本語能力試験N2',
+        'jlpt-n1': '日本语能力测试N1',
+        'toeic': 'TOEIC L&R 775分',
         
         // 自我介绍
         'intro-p1': '作为全栈开发工程师，我精通从Java/SpringBoot后端开发到HTML/CSS/JavaScript前端开发的全面技术栈。',
@@ -101,7 +105,7 @@ const translations = {
         'github': 'GitHub',
 
         // Home page
-        'hello': "Hello, I'm Yann",
+        'hello': "Hello, I'm BAI",
         'role': 'Full Stack Developer | Photography Enthusiast',
         'view-github': 'GitHub',
         'view-resume': 'My Resume',
@@ -122,10 +126,12 @@ const translations = {
 
         // Education
         'study-period': '2022.10 - 2023.10',
-        'school-1': 'O-HARA Japanese Language School',
-        'major-1': 'Japanese Language Studies',
-        'school-2': 'Nanjing University of the Arts',
-        'major-2': 'Digital Media Arts',
+        'school-1': 'Tokyo University of Marine Science and Technology',
+        'major-1': 'Applied Environmental Studies (Ph.D.)',
+        'school-2': 'Tokyo University of Marine Science and Technology',
+        'major-2': 'Maritime Technology and Logistics (Master)',
+        'school-3': 'Dalian Maritime University',
+        'major-3': 'Marine Electronics and Electrical Engineering (Bachelor)',
 
         // Work Experience
         'company-1': 'Nagawa Network Co., Ltd.',
@@ -146,6 +152,8 @@ const translations = {
 
         // Certificates
         'jlpt-n2': 'JLPT N2 Certificate',
+        'jlpt-n1': 'JLPT N1 Certificate',
+        'toeic': 'TOEIC L&R Score: 775',
 
         // Self Introduction
         'intro-p1': 'As a full-stack developer, I am proficient in a comprehensive technology stack from Java/SpringBoot backend development to HTML/CSS/JavaScript frontend development.',
@@ -194,7 +202,7 @@ const translations = {
         'github': 'GitHub',
 
         // 首页
-        'hello': 'はじめまして、Yannです',
+        'hello': 'はじめまして、BAIです',
         'role': 'フルスタックエンジニア | 写真愛好家',
         'view-github': 'GitHub',
         'view-resume': '履歴書',
@@ -215,10 +223,12 @@ const translations = {
 
         // 学历信息
         'study-period': '2022.10 - 2023.10',
-        'school-1': '大原日本語学院',
-        'major-1': '日本語学習',
-        'school-2': '南京芸術学院',
-        'major-2': 'デジタルメディアアート',
+        'school-1': '東京海洋大学大学院',
+        'major-1': '応用環境システム（博士）',
+        'school-2': '東京海洋大学大学院',
+        'major-2': '海運ロジスティックス（修士）',
+        'school-3': '大連海事大学',
+        'major-3': '船舶電子電気工学（学士）',
 
         // 工作经历
         'company-1': '株式会社名川ネットワーク',
@@ -239,6 +249,8 @@ const translations = {
 
         // 证书
         'jlpt-n2': '日本語能力試験N2',
+        'jlpt-n1': '日本語能力試験N1',
+        'toeic': 'TOEIC L&R 775点',
 
         // 自我介绍
         'intro-p1': 'フルスタック開発者として、Java/SpringBootバックエンド開発からHTML/CSS/JavaScriptフロントエンド開発まで、幅広い技術スタックを持っています。',
