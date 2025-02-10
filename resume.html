@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历 - Wenbin BAI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏部分与index.html相同 -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">WENBIN_BAI</a>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="home">首页</a></li>
+            <li><a href="resume.html" data-i18n="resume">简历</a></li>
+            <li><a href="projects.html" data-i18n="projects">项目</a></li>
+            <li><a href="github.html" data-i18n="github">GitHub</a></li>
+            <li class="language-dropdown">
+                <a href="#" class="language-btn">
+                    <i class="fas fa-globe"></i>
+                </a>
+                <div class="language-menu">
+                    <a href="#" data-lang="zh" class="active">中文</a>
+                    <a href="#" data-lang="en">English</a>
+                    <a href="#" data-lang="ja">日本語</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="resume-container">
+        <section class="resume-header-title">
+            <h1 data-i18n="resume-title">履历書</h1>
+        </section>
+
+        <section class="resume-header">
+            <div class="profile-info">
+                <div class="name-block">
+                    <div class="name-row">
+                        <span class="surname" data-i18n="surname">白</span>
+                        <span class="firstname" data-i18n="firstname">文斌</span>
+                    </div>
+                    <div class="name-phonetic">
+                        <span data-i18n="surname-phonetic">ハク</span>
+                        <span data-i18n="firstname-phonetic">ブンヒン</span>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> baiwenbin0529@outlook.com</p>
+                    <p><i class="fas fa-phone"></i> 080-7634-9090</p>
+                    <p><i class="fab fa-weixin"></i> suiyueran_n</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="address">東京都大田区蒲田</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2><i class="fas fa-graduation-cap"></i> <span data-i18n="education">学历背景</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="date" data-i18n="study-period">2021.10 - 2023.10</div>
+                    <div class="content">
+                        <h3 data-i18n="school-1">東京海洋大学大学院</h3>
+                        <p data-i18n="major-1">日语学习</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2015.09 - 2019.07</div>
+                    <div class="content">
+                        <h3 data-i18n="school-2">大連海事大学</h3>
+                        <p data-i18n="major-2">電気工学科</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2><i class="fas fa-briefcase"></i> <span data-i18n="workExperience">工作经历</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="date">2024.09 - <span data-i18n="present">现在</span></div>
+                    <div class="content">
+                        <h3 data-i18n="company-1">(株)名川ネットワーク</h3>
+                        <p data-i18n="position-1">Web开发工程师</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2023.10 - 2024.08</div>
+                    <div class="content">
+                        <h3 data-i18n="company2">(株)Great Navigation</h3>
+                        <p data-i18n="position2">Web开发工程师</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2020.10 - 2021.10</div>
+                    <div class="content">
+                        <h3 data-i18n="company3">南京德基广场有限公司</h3>
+                        <p data-i18n="position3">媒体设计师</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2><i class="fas fa-code"></i> <span data-i18n="skills">技术技能</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-i18n="backend-skills">后端开发</h3>
+                    <div class="skill-tags">
+                        <span class="tag">JAVA</span>
+                        <span class="tag">Springboot</span>
+                        <span class="tag">Struts</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Oracle</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="frontend-skills">前端开发</h3>
+                    <div class="skill-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Vue</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="ai-tools">AI工具</h3>
+                    <div class="skill-tags">
+                        <span class="tag">ChatGPT</span>
+                        <span class="tag">Cursor</span>
+                        <span class="tag">Notion AI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="design-skills">设计技能</h3>
+                    <div class="skill-tags">
+                        <span class="tag" data-i18n="graphic-design">平面设计</span>
+                        <span class="tag" data-i18n="video-editing">视频编辑</span>
+                        <span class="tag" data-i18n="photography">摄影</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2><i class="fas fa-certificate"></i> <span data-i18n="certificates">资格证书</span></h2>
+            <div class="certificates">
+                <div class="certificate">
+                    <i class="fas fa-award"></i>
+                    <h3>JLPT N2</h3>
+                    <p data-i18n="jlpt-n2">日本語能力試験N2</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2><i class="fas fa-user"></i> <span data-i18n="selfIntro">自我介绍</span></h2>
+            <div class="self-introduction">
+                <p data-i18n="intro-p1">作为全栈开发工程师，我精通从Java/SpringBoot后端开发到HTML/CSS/JavaScript前端开发的全面技术栈。</p>
+                <p data-i18n="intro-p2">对AI技术有浓厚兴趣，积极运用ChatGPT和GitHub Copilot等最新AI工具，提高开发效率和代码质量。</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚部分与index.html相同 -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/WenbinBAI" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wenbin-bai-a40194241/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2025 WenbinBAI. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+</html> 

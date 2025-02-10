@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- 基本元数据 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目履历 - Wenbin BAI</title>
+    
+    <!-- 样式表引入 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <!-- Font Awesome 图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <!-- 网站品牌/Logo -->
+        <div class="nav-brand">
+            <a href="index.html">WENBIN_BAI</a>
+        </div>
+        <!-- 移动端菜单按钮 -->
+        <div class="nav-toggle" id="navToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <!-- 导航链接 -->
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="home">首页</a></li>
+            <li><a href="resume.html" data-i18n="resume">简历</a></li>
+            <li><a href="projects.html" data-i18n="projects">项目</a></li>
+            <li><a href="github.html" data-i18n="github">GitHub</a></li>
+            <li class="language-dropdown">
+                <a href="#" class="language-btn">
+                    <i class="fas fa-globe"></i>
+                </a>
+                <div class="language-menu">
+                    <a href="#" data-lang="zh" class="active">中文</a>
+                    <a href="#" data-lang="en">English</a>
+                    <a href="#" data-lang="ja">日本語</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="projects-container">
+        <!-- 项目页面头部 -->
+        <section class="projects-header">
+            <h1 data-i18n="projects">项目履历</h1>
+        </section>
+
+        <!-- 项目卡片网格 -->
+        <div class="projects-grid">
+            <!-- 项目1：e-staffing系统 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <h3 data-i18n="project1-title">e-staffing人材派遣管理システム</h3>
+                    <span class="project-date">2023.12 - 2024.01</span>
+                </div>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1200" 
+                         alt="e-staffing系统界面 - 现代办公环境" 
+                         loading="lazy">
+                </div>
+                <div class="project-content">
+                    <div class="project-tech">
+                        <div class="tech-item">
+                            <strong data-i18n="environment">環境：</strong>
+                            <span>Windows / MySQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="language">言語：</strong>
+                            <span>Java, SpringBoot, MyBatis</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="frontend">フロント：</strong>
+                            <span>HTML, CSS, JavaScript, jQuery</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="tools">ツール：</strong>
+                            <span>Eclipse, Git, VSCode</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p data-i18n="project1-desc">複数の派遣会社とのやり取りを一元化する、派遣管理システム</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">SpringBoot</span>
+                            <span class="tag">MyBatis</span>
+                            <span class="tag">jQuery</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 项目2：通信方式选定工具 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <h3 data-i18n="project2-title">通信方式選定ツール（電柱）</h3>
+                    <span class="project-date">2024.02 - 2024.06</span>
+                </div>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1200" 
+                         alt="通信方式选定工具界面 - 通信设备" 
+                         loading="lazy">
+                </div>
+                <div class="project-content">
+                    <div class="project-tech">
+                        <div class="tech-item">
+                            <strong data-i18n="environment">環境：</strong>
+                            <span>Windows / MySQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="language">言語：</strong>
+                            <span>Java, SpringBoot, JSP</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="frontend">フロント：</strong>
+                            <span>CSS, JavaScript, jQuery</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="tools">ツール：</strong>
+                            <span>Eclipse</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p data-i18n="project2-desc">StrutsからSpringbootに移行するプロジェクト</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">SpringBoot</span>
+                            <span class="tag">JSP</span>
+                            <span class="tag">jQuery</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 项目3：Java培训项目 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <h3 data-i18n="project3-title">Javaプログラミングスクール</h3>
+                    <span class="project-date">2023.10 - 2023.11</span>
+                </div>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200" 
+                         alt="Java编程培训项目 - 编程环境" 
+                         loading="lazy">
+                </div>
+                <div class="project-content">
+                    <div class="project-tech">
+                        <div class="tech-item">
+                            <strong data-i18n="environment">環境：</strong>
+                            <span>Windows / MySQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="language">言語：</strong>
+                            <span>Java, SpringBoot, MyBatis</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="frontend">フロント：</strong>
+                            <span>HTML, CSS, JavaScript, Vue.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <strong data-i18n="tools">ツール：</strong>
+                            <span>Eclipse, SVN, Git, VSCode</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p data-i18n="project3-desc">Javaの基本からWebサイト構築、フレームワークまでの総合的な研修</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">SpringBoot</span>
+                            <span class="tag">MyBatis</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- 页脚区域 -->
+    <footer>
+        <!-- 社交媒体链接 -->
+        <div class="social-links">
+            <a href="https://github.com/WenbinBAI" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wenbin-bai-a40194241/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <!-- 版权信息 -->
+        <p>&copy; 2025 WenbinBAI. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript 文件引入 -->
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+</html> 
