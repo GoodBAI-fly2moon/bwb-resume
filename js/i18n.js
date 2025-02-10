@@ -37,10 +37,10 @@ const translations = {
         'major-3': '船舶电子电气工程（学士）',
         
         // 工作经历
-        'company-1': '(株)名川ネットワーク',
-        'position-1': 'Web开发工程师',
-        'company-2': '(株)Great Navigation',
-        'position-2': 'Web开发工程师',
+        'company-1': '雅马哈株式会社',
+        'position-1': '音响系统开发（实习）',
+        'company-2': '基恩士株式会社',
+        'position-2': '工厂自动化产品研修（实习）',
         'company-3': '南京德基广场有限公司',
         'position-3': '媒体设计师',
         
@@ -94,7 +94,14 @@ const translations = {
         'project1-resp1': '设计和实现客户信息管理功能',
         'project1-resp2': '数据库设计和API开发',
         'project1-resp3': '前端页面实现',
-        'project1-resp4': '进行单元测试'
+        'project1-resp4': '进行单元测试',
+        'awards': '获奖履历',
+        'award-1': '创发性海洋研究与产业人才培养支持项目奖学金',
+        'award-org-1': '日本科学技术振兴机构',
+        'award-2': 'ANC2022优秀论文奖',
+        'award-org-2': '亚洲航海学会',
+        'award-3': 'KEYENCE编程大赛2023秋季特别奖',
+        'award-org-3': '基恩士株式会社'
     },
     
     en: {
@@ -112,11 +119,11 @@ const translations = {
 
         // Resume page
         'resume-title': 'Resume',
-        'surname': 'Yan',
-        'firstname': 'Sanuei',
-        'surname-phonetic': 'Yan',
-        'firstname-phonetic': 'Sanuei',
-        'address': 'Ichinoe, Edogawa-ku, Tokyo',
+        'surname': 'BAI',
+        'firstname': 'Wenbin',
+        'surname-phonetic': 'BAI',
+        'firstname-phonetic': 'Wenbin',
+        'address': 'Kamata, Ota City, Tokyo, Japan',
         'education': 'Education',
         'workExperience': 'Work Experience',
         'skills': 'Skills',
@@ -134,10 +141,10 @@ const translations = {
         'major-3': 'Marine Electronics and Electrical Engineering (Bachelor)',
 
         // Work Experience
-        'company-1': 'Nagawa Network Co., Ltd.',
-        'position-1': 'Web Developer',
-        'company-2': 'Great Navigation Co., Ltd.',
-        'position-2': 'Web Developer',
+        'company-1': 'YAMAHA Corporation',
+        'position-1': 'Audio System Development (Internship)',
+        'company-2': 'KEYENCE Corporation',
+        'position-2': 'Factory Automation Product Training (Internship)',
         'company-3': 'Nanjing Deji Plaza Co., Ltd.',
         'position-3': 'Media Designer',
 
@@ -160,7 +167,7 @@ const translations = {
         'intro-p2': 'With a strong interest in AI technology, I actively utilize the latest AI tools such as ChatGPT and GitHub Copilot to improve development efficiency and code quality.',
 
         // GitHub page
-        'githubName': 'Yan Sanuei',
+        'githubName': 'Wenbin BAI',
         'githubBio': 'Full Stack Developer | Open Source Enthusiast',
         'followers': 'Followers',
         'following': 'Following',
@@ -191,7 +198,14 @@ const translations = {
         'project1-resp1': 'Design and implementation of client information management',
         'project1-resp2': 'Database design and API development',
         'project1-resp3': 'Frontend implementation',
-        'project1-resp4': 'Unit testing'
+        'project1-resp4': 'Unit testing',
+        'awards': 'Awards & Honors',
+        'award-1': 'Support Project for Emergent Ocean Research and Industrial Human Resource Development Scholarship',
+        'award-org-1': 'Japan Science and Technology Agency',
+        'award-2': 'Distinguished Paper Award in ANC2022',
+        'award-org-2': 'Asia Navigation Conference',
+        'award-3': 'KEYENCE Programming Contest 2023 Autumn Special Award',
+        'award-org-3': 'KEYENCE Corporation'
     },
 
     ja: {
@@ -209,11 +223,11 @@ const translations = {
 
         // 简历页面
         'resume-title': '履歴書',
-        'surname': '楊',
-        'firstname': '尚衛',
-        'surname-phonetic': 'ヤン',
-        'firstname-phonetic': 'サンウエイ',
-        'address': '東京都江戸川区一之江',
+        'surname': '白',
+        'firstname': '文斌',
+        'surname-phonetic': 'ハク',
+        'firstname-phonetic': 'ブンヒン',
+        'address': '東京都大田区蒲田',
         'education': '学歴',
         'workExperience': '職歴',
         'skills': 'スキル',
@@ -231,12 +245,10 @@ const translations = {
         'major-3': '船舶電子電気工学（学士）',
 
         // 工作经历
-        'company-1': '株式会社名川ネットワーク',
-        'position-1': 'Webエンジニア',
-        'company-2': '株式会社Great Navigation',
-        'position-2': 'Webエンジニア',
-        'company-3': '南京徳基広場有限会社',
-        'position-3': 'メディアデザイナー',
+        'company-1': 'ヤマハ株式会社',
+        'position-1': '音響システム開発（インターン）',
+        'company-2': 'キーエンス株式会社',
+        'position-2': '工場自動化製品研修（インターン）',
 
         // 技能分类
         'backend-skills': 'バックエンド開発',
@@ -257,7 +269,7 @@ const translations = {
         'intro-p2': 'AI技術に強い関心を持ち、ChatGPTやGitHub Copilotなどの最新のAIツールを積極的に活用し、開発効率とコード品質の向上に取り組んでいます。',
 
         // GitHub页面
-        'githubName': 'Yan Sanuei',
+        'githubName': 'Wenbin BAI',
         'githubBio': 'フルスタックエンジニア | オープンソース愛好家',
         'followers': 'フォロワー',
         'following': 'フォロー中',
@@ -288,7 +300,14 @@ const translations = {
         'project1-resp1': '顧客情報管理機能の設計・実装',
         'project1-resp2': 'データベース設計とAPI開発',
         'project1-resp3': 'フロントエンド画面の実装',
-        'project1-resp4': '単体テストの実施'
+        'project1-resp4': '単体テストの実施',
+        'awards': '受賞歴',
+        'award-1': '創発的海洋研究・産業人材育成支援プロジェクト奨学金',
+        'award-org-1': '科学技術振興機構',
+        'award-2': 'ANC2022優秀論文賞',
+        'award-org-2': '2022アジア航海学会',
+        'award-3': 'キーエンスプログラミングコンテスト2023秋 特別賞',
+        'award-org-3': 'キーエンス株式会社'
     }
 };
 
