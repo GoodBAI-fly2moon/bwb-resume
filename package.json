@@ -1,0 +1,24 @@
+{
+  "name": "bwb-resume-1",
+  "version": "1.0.0",
+  "description": "这是一个现代化的个人作品集网站，采用响应式设计，展示个人项目和技能。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodBAI-fly2moon/bwb-resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GoodBAI-fly2moon/bwb-resume/issues"
+  },
+  "homepage": "https://github.com/GoodBAI-fly2moon/bwb-resume#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
